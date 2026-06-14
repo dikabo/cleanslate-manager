@@ -1,0 +1,1 @@
+INSERT INTO public.partners (name, specialty, is_active, notes) VALUES ('Maison (Atelier Interne)', 'nettoyage', true, 'Atelier principal pour la production interne.') ON CONFLICT DO NOTHING;

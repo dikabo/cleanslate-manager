@@ -1,0 +1,32 @@
+node_modules/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Build and test output
+dist/
+test-results/
+coverage/
+output/
+*.log
+
+# Generated archives and reports
+*.zip
+eslint-report.txt
+eslint-results.json
+eslint-summary*.txt
+eslint.json
+extracted_tarifs*.txt
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+
+# TypeScript/Vite caches
+*.tsbuildinfo
+.vite/
+
+# Supabase CLI local state
+supabase/.temp/
